@@ -43,12 +43,12 @@ class DictShaper(dict):
 
         # The loop for iteration of the dictionary
         for k, v in dictionary.items():
-            # Add quotes if necessary
-            k, v = self.__quotes(k), self.__quotes(v)
+            k, v = self.__quotes(k), self.__quotes(v)  # Add quotes if necessary
+            v_dict = isinstance(v, dict)  # Check if the value is a dictionary (True/False)
 
             # Just join a key-value pair to the 'start' in the string format
-            # if the value isn't the dictionary type
-            if not isinstance(v, dict):
+            # if the value isn't the dictionary type or empty dictionary
+            if not v_dict or (v_dict and not v):
                 start += f'{k}: {v},\n{indent}'
             # Else send the dictionary from the value to the recurse
             else:
