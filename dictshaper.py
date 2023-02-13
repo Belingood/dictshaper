@@ -70,10 +70,12 @@ class DictShaper(dict):
         if write_to:
             # If the 'write_to' param has '1' or 'True' value
             if write_to == 1:
-                write_to = globals()['__file__']  # Gets a path of a current file
+                import inspect
+                write_to = inspect.stack()[1].filename  # Gets a path of a current file
 
             # Else writes the result to the end of the file by the path from the 'write_to' param
             with open(write_to, 'a', encoding='utf-8') as file:
                 file.write(f'\n{result}\n')
 
         return result
+
