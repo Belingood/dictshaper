@@ -1,5 +1,4 @@
-DictShaper
-==========
+# DictShaper
 
 **The module for convenient viewing of dictionary 
 with the all necessary indents.**
@@ -25,19 +24,15 @@ dictionary will be writing to the end of a current file.
 
 We will work with the dictionary below called **'some dictionary'**.
 
-`some_dictionary = {'Level-1 el-1': [0, 1, 2, 3, 4], 'Level-1 el-2': {'Level-2 el-1': 1, 'Level-2 el-2': 2}, 'Level-1 el-3': 'Some string', 'Level-1 el-4': ('Tuple', 1, ['a', 'b']), 'Level-1 el-5': {'Level-2 el-3': {'Level-3 el-1': 'https://some-site.com/page1?par=120&another=500', 'Level-3 el-2': (9, 125, 87), 'Level-3 el-3': 'Very very very very very very very very very very very very very very long string.'}, 'Level-2 el-4': 2}, 'Level-1 el-6': {}, 'Level-1 el-7': 'The end of the dictionary!'}`
+`some_dictionary = {'Level-1 el-1': [0, 1, 2, 3, 4], 'Level-1 el-2': {'Level-2 el-1': 1, 'Level-2 el-2': 2}, 'Level-1 el-3': 'Some string', 'Level-1 el-4': ('Tuple', 1, ['a', 'b']), 'Level-1 el-5': {'Level-2 el-3': {'Level-3 el-1': 'https://some-site.com/page1?par=120&another=500', 'Level-3 el-2': (9, 125, 87), 'Level-3 el-3': 'Very very very very very very very very very very very very long string.'}, 'Level-2 el-4': 2}, 'Level-1 el-6': {}, 'Level-1 el-7': 'The end of the dictionary!'}`
 
 ## For output the dict to console without a name
 
 ### Enter following commands
 
----
-
-1. some_dictionary = DictShaper(some_dictionary)
-2. 
-3. print(some_dictionary.shape())
-
----
+> 1. `some_dictionary = DictShaper(some_dictionary)`
+> 2. 
+> 3. `print(some_dictionary.shape())`
 
 ### Output
 
@@ -53,7 +48,7 @@ We will work with the dictionary below called **'some dictionary'**.
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Level-2 el-3': {<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Level-3 el-1': 'https://some-site.com/page1?par=120&another=500',<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Level-3 el-2': (9, 125, 87),<br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Level-3 el-3': 'Very very very very very very very very very very very very very very long string.',<br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Level-3 el-3': 'Very very very very very very very very very very very very long string.',<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;},<br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'Level-2 el-4': 2,<br>
 &nbsp;&nbsp;&nbsp;&nbsp;},<br>
