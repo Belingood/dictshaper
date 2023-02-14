@@ -1,7 +1,7 @@
 # DictShaper
 
-> The module for convenient viewing of dictionary 
-> with the all necessary indents.
+> **The module for convenient viewing of dictionary 
+> with the all necessary indents.**
 
 This module extends the standard `dict` class, so you can
 use all its properties and methods. Over all of this `DictShaper`
