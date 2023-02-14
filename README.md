@@ -33,7 +33,7 @@ We will work with the dictionary below called **'some dictionary'**.
 > 2. 
 > 3. `print(some_dictionary.shape())`
 
-NOTE: *You also can add the 'name' param* 
+* *You also can add the 'name' param* 
 
 ### Output
 
@@ -64,7 +64,7 @@ NOTE: *You also can add the 'name' param*
 > 3. `some_dictionary.shape(name='shaped_dict', write_to=True)`
 > 4.
 > 5.
-> 6.  `{`
+> 6.  `shaped_dict = {`
 > 7.  &nbsp;&nbsp;&nbsp;&nbsp;`'Level-1 el-1': [0, 1, 2, 3, 4],`
 > 8.  &nbsp;&nbsp;&nbsp;&nbsp;`'Level-1 el-2': {`
 > 9.  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`'Level-2 el-1': 1,`
