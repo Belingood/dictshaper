@@ -7,19 +7,15 @@ with the all necessary indents.</b></p>
 use all its properties and methods. Over all of this <code>DictShaper</code>
 adds the new method <code>shape()</code>. You can also give a name for your
 dictionary by the <code>name=</code> param.</p>
-
 <p style="padding: 5px; border: solid 2px #eee; background: #F0FFF0;"><code style="background: none; padding: 0;">
 your_dictionary.shape(<b>name='any_name'</b>)
 </code></p>
-
 <p>You can also add a path to a file for writing the dictionary there,
 using the <code>write_to=</code> param. It will be writing in a convenient view,
 like in an example below.</p>
-
 <p style="padding: 5px; border: solid 2px #eee; background: #F0FFF0;"><code style="background: none; padding: 0;">
 your_dictionary.shape(name='any_name', <b>write_to='any_path'</b>)
 </code></p>
-
 <p>If you set as a value <code>1</code> or <code>True</code> in <code>write_to=</code> param then the
 dictionary will be writing to the end of a current file.</p>
 
