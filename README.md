@@ -29,7 +29,7 @@ We will work with the dictionary below called **'some dictionary'**.
 ### For output to console without a name
 
 > ![DictShaper code](static/dictshaper1a.jpg)
-> ![DictShaper code](static/dictshaper1.jpg)
+> ![DictShaper code](static/dictshaper-1.jpg)
 
 ### For output to console with a name
 
