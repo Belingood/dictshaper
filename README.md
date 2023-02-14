@@ -33,7 +33,7 @@ We will work with the dictionary below called **'some dictionary'**.
 > 2. 
 > 3. `print(some_dictionary.shape())`
 
-* You also can add the *'name'* param
+* You also can add the *'name='* param
 
 ### Output
 
