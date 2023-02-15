@@ -29,7 +29,7 @@ class DictShaper(dict):
 
         # Raises an error if the first character and subsequent characters are incorrect
         if not (good_first(name) and allow(name)):
-            raise ValueError('The name must meet the requirements')
+            raise ValueError("The name must meet the requirements of variable's name")
 
         return True
 
@@ -78,4 +78,3 @@ class DictShaper(dict):
                 file.write(f'\n{result}\n')
 
         return result
-
