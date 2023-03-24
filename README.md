@@ -33,7 +33,7 @@ We will work with the dictionary below called **'some dictionary'**.
 
 > ### First you need to import this module with the following command
 > 
-> `from dictshaper import DictShaper`
+> `from dictshaper.shaper import DictShaper`
 
 ## For outputting the dict without a name to a console
 
